@@ -9,13 +9,14 @@ from bson.objectid import ObjectId
 import asyncio
 import re
 
-#MongoDB 
-cluster = motor.motor_asyncio.AsyncIOMotorClient("mongodb+srv://gerya1508:yjFkhWxt3ZSIa2sb@cluster0.aigmpxp.mongodb.net/ttbot_db?retryWrites=true&w=majority")
+#MongoDB (you need to create or rename this cluster + collections )
+#probably rename ObjectId in 603 str.
+cluster = motor.motor_asyncio.AsyncIOMotorClient("mongodb+srv://_LOGIN:_PASSWORD@_CLUSTER.aigmpxp.mongodb.net/ttbot_db?retryWrites=true&w=majority")
 collection = cluster.ttbot_db.ttbot_collection
 video_collection = cluster.ttbot_db.videos
 metadata_collection = cluster.ttbot_db.metadata
 
-TOKEN="6388109007:AAGU92JKDSQBOvJb_4lxXVt9D4vX5HtS0RQ"
+TOKEN="_BOT_TOKEN"
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot,storage=MemoryStorage()) 
 
@@ -27,8 +28,9 @@ class Form(StatesGroup):
     amount = State()  # Состояние сбора суммы денег
 
 
-
-channel_log = -1001971599660
+channel_log = Channel_id
+#example:
+#channel_log = -1001971599660
 
 ad_msg_withdraw = '''Para enviar una solicitud de eliminación, debe estar suscrito al canal de nuestro patrocinador.
 
