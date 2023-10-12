@@ -5,11 +5,17 @@ massive panel, fake earnings for filter trafik to private channel.
 
 functions:
 -user registration
+
 -referral and rereferral system with notifications with notifications
+
 -watch the video to receive a reward
+
 -checking viewing with a timer
+
 -unique queue of video display for users. Daily limit
+
 -changing conditions for withdrawal.
+
 -collecting data for withdrawal of funds, checking channel subscription
 
 admin panel:
