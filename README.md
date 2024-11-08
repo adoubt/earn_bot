@@ -29,3 +29,4 @@ admin panel:
 
 database - mongoDB
 
+UPD: I made an MVP project for a client, there is a big problem with multithreading, but I was'nt asked to fix it lol🦧.
