@@ -1,7 +1,7 @@
 # tt_earn_bot
 [This bot uploaded here (diff_version) ](https://t.me/tiktok_peru_bot)https://t.me/tiktok_peru_bot
 
-massive panel, fake earnings for filter traffik to private channel.
+massive panel, fake earnings for filter traffiс to private channel.
 
 functions:
   - user registration
